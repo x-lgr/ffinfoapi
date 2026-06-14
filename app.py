@@ -133,7 +133,7 @@ def cached_endpoint(ttl=300):
 # === Flask Routes ===
 @app.route('/')
 def home():
-    return "@YASIRXT API is Alive now!", 200
+    return "xlgr info API is Alive now!", 200
 @app.route('/get')
 @cached_endpoint()
 def get_account_info():
